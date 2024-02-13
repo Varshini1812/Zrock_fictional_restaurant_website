@@ -2,25 +2,22 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <>
-      <section class="footer">
-        <div class="share">
-          <a href="#" class="fab fa-facebook-f"></a>
-          <a href="#" class="fab fa-twitter"></a>
-          <a href="#" class="fab fa-instagram"></a>
-
-          <a href="#" class="fab fa-pinterest"></a>
+     <section className="footer">
+        <div className="share">
+          <a href="/" className="fab fa-facebook-f" aria-label="Facebook"></a>
+          <a href="/" className="fab fa-twitter" aria-label="Twitter"></a>
+          <a href="/" className="fab fa-instagram" aria-label="Instagram"></a>
+          <a href="/" className="fab fa-pinterest" aria-label="Pinterest"></a>
         </div>
-        <div class="links">
-          <a href="#home">home</a>
-          <a href="#about">about</a>
-          <a href="#menu">menu</a>
-
+        <div className="links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#menu">Menu</a>
           <a href="#booking">Book a Table</a>
-          <a href="#contact">contact</a>
+          <a href="#contact">Contact</a>
         </div>
       </section>
-    </>
+    
   );
 };
 
